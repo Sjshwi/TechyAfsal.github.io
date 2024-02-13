@@ -143,6 +143,11 @@
     display: none;
     z-index: 1;
   }
+@media (max-width: 600px){
+    .card {
+     width: 300px;
+        max-height: 450px;
+    }
 
   .card:hover{
 

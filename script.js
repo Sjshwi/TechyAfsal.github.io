@@ -18,7 +18,7 @@ function calculateElectricityBill(unit){
     {  
         billToPay = 100 * 2.25 + 200 * 3.25 + (unit - 200) * 5.40;  
     }  
-     else if (unit < 400)
+     else if (unit > 400)
  {
 billToPay = 100 * 2.25 + 200 * 3.25 + 300 * 5.40 + (unit - 300)*6.80
 }

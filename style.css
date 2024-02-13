@@ -313,7 +313,7 @@
 @media (max-width: 600px){
     .card {
      width: 300px;
-        max-height: 450px;
+        max-height: 550px;
     }
     .input-group__input{
      margin-left: auto;
